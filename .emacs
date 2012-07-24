@@ -5,3 +5,4 @@
     (color-theme-oswald)
 (setq scroll-step            1
       scroll-conservatively  10000)
+(setq column-number-mode t)
