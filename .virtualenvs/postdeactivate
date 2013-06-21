@@ -1,0 +1,8 @@
+#!/usr/local/Cellar/zsh/5.0.0/bin/zsh
+# This hook is run after every virtualenv is deactivated.
+
+if [ $PRE_VENV_ACTIVATE_DIR ]; then
+    cd $PRE_VENV_ACTIVATE_DIR
+    unset PRE_VENV_ACTIVATE_DIR
+fi
+RPROMPT="$_OLD_RPROMPT"

@@ -1,0 +1,3 @@
+#!/usr/local/Cellar/zsh/5.0.0/bin/zsh
+# This hook is run before a project is deleted.
+
