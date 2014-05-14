@@ -24,12 +24,10 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 
 #path stuff
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
 export PATH=/usr/local/Cellar/emacs/24.1/bin:/usr/local/Cellar/python/2.7.3/bin:$PATH
 export PATH=/usr/local/Cellar/ruby/1.9.3-p194/bin:$PATH
 export PATH=/Users/vengeanceofalf/workspace/git/elastic-mapreduce-ruby:$PATH
-export PATH=/Users/vengeanceofalf/workspace/git/arcanist/bin:$PATH
-source /Users/vengeanceofalf/workspace/git/arcanist/resources/shell/bash-completion
 #hadoop stuff
 export HADOOP_USER_NAME=EliFinkelshteyn
 export PIG_CLASSPATH=/Users/vengeanceofalf/jython-2.5.4-rc1.jar
